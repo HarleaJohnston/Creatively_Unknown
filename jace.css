@@ -1,0 +1,32 @@
+html{
+    text-align: center;
+    font-size: 35px;
+    background-color: #184e77;
+    color:   #ADf1d2;
+    
+}
+h1{
+    color:#76c893;
+}
+h2{
+    color: #d9ed92;
+}
+#Sexuality{
+    position: sticky;
+    font-weight: bolder;
+    color: lightgoldenrodyellow;
+    background-image: url("CSS/AQSexuality.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+   
+}
+footer{
+    color: #070707;
+    font-size: 20px;
+}
+
+
+
+
+
