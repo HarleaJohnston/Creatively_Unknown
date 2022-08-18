@@ -11,15 +11,19 @@ h1{
 h2{
     color: #d9ed92;
 }
-#Sexuality{
+.Sexuality{
     position: sticky;
     font-weight: bolder;
-    color: lightgoldenrodyellow;
+    color: #000b2e;
     background-image: url("CSS/AQSexuality.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
    
+}
+#informationS{
+    color: #76c893;
+    text-align: center;
 }
 footer{
     color: #070707;
