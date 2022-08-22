@@ -1,20 +1,30 @@
 html{
     font-family: Enchant;
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     background-color: #184e77;
     color:   #ADf1d2;
     
 }
-h1{
+#contators{
+    position: relative;
+   
+}
+#greeting{
+    font-family: smallMemory;
     font-size: 140px;
     color:#76c893;
 }
-h2{
+#Alias{
+    font-size: 80px;
     color: #d9ed92;
 }
+#Bio{
+    position: relative;
+    font-size: 60px;
+}
 .Sexuality{
-    position: sticky;
+    position:relative;
     font-weight: bolder;
     color: #000b2e;
     background-image: url("CSS/AQSexuality.png");
@@ -24,8 +34,20 @@ h2{
    
 }
 #informationS{
-    color: #76c893;
+    color: #efd5c3;
     text-align: center;
+}
+.Gender{
+    position: relative;
+
+    background-image: url("Css/Genderfluid-Nonbinary.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+#informationG{
+    color: #aac0af;
 }
 footer{
     color: #070707;
@@ -34,8 +56,11 @@ footer{
 
 @font-face{
     font-family: Enchant;
-    src: url(Enchanted\ Land.otf)
+    src: url(CSS/Enchanted\ Land.otf)
 }
 
-
+@font-face {
+    font-family: smallMemory;
+    src: url(CSS/SmallMemory.ttf);
+}
 
