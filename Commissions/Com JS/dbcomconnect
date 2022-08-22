@@ -1,0 +1,28 @@
+const mongoose = require ('mongoose')
+require ('dotenv').config()
+
+module.exports = function(){
+    mongoose.connect(process.env.DBPATH)
+    .then((result) =>{return result})
+    .catch((err) => {
+        console.log('There was an error conecting: ', err )
+    })
+    mongoose.connection.on('connected', () => {
+        console.log('Connected')
+    })
+    mongoose.connection.on('error', (err) => {
+        console.log('Something went wrong with the Connection')
+    })
+    mongoose.connection.on('disconected', () => {
+        console.log('Connection hung up')
+    })
+    process.on('SIGNIT', () =>{
+        mongoose.connection.close(true, (err) => {
+            if(err){
+            console.log('Error occured while breaking connections')
+            process.exit(0)}
+            console.long('Connection Terminated')
+            process.exit(0)
+        })
+    })
+}
