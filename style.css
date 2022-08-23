@@ -14,9 +14,9 @@ font-size: xx-large;
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    border: solid 1px #C3D8E4;
-    border-radius: 7px;
-    padding: 5px;
+    border: solid 1 px #C3D8E4;
+    border-radius: 7 px;
+    padding: 5 px;
     cursor: pointer;
     }
     nav ul li:hover{
