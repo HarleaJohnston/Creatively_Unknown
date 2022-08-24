@@ -4,10 +4,9 @@ html{
     font-size: 50px;
     background-color: #184e77;
     color:   #ADf1d2;
-    background-image: url("./CSSImages/backgroundVines.jpg"),url("http://pa1.narvii.com/6596/13a0ea190ec4ec6134eec6b291899fca611ef6c5_00.gif");
-    
+    background-image: url("http://pa1.narvii.com/6596/13a0ea190ec4ec6134eec6b291899fca611ef6c5_00.gif"),url("./CSSImages/vinesBackground.png");
+    background-size: 250px, cover;
     background-repeat: no-repeat;
-    background-size: 300px;
 }
 #contators{
     position: relative;
@@ -19,7 +18,7 @@ html{
     color:#76c893;
 }
 #Alias{
-    font-size: 80px;
+    font-size: 95px;
     color: #d9ed92;
 }
 #Bio{
@@ -53,7 +52,7 @@ html{
     
 }
 #informationG{
-    color: #aac0af;
+    color: #ffd500;
 }
 footer{
     color: #070707;
