@@ -1,0 +1,21 @@
+body{
+    background-color:#a9ba9d;
+    }
+
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        border: solid 1px #C3D8E4;
+        border-radius: 7px;
+        padding: 5px;
+        cursor: pointer;
+        }
+        nav ul li:hover{
+            background-color: #F8E4EF;
+            color: #46313D;
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            color: #46313D;
+        }

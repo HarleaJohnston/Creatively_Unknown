@@ -4,7 +4,10 @@ html{
     font-size: 50px;
     background-color: #184e77;
     color:   #ADf1d2;
+    background-image: url("./CSSImages/backgroundVines.jpg"),url("http://pa1.narvii.com/6596/13a0ea190ec4ec6134eec6b291899fca611ef6c5_00.gif");
     
+    background-repeat: no-repeat;
+    background-size: 300px;
 }
 #contators{
     position: relative;
@@ -27,7 +30,7 @@ html{
     position:relative;
     font-weight: bolder;
     color: #000b2e;
-    background-image: url("CSS/AQSexuality.png");
+    background-image: url("./CSSImages/AQSexuality.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
@@ -41,7 +44,7 @@ html{
     margin-top: 100px;
     position: relative;
 
-    background-image: url("Css/UpsideRainbow.png");
+    background-image: url("./CSSImages/UpsideRainbow.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -59,11 +62,11 @@ footer{
 
 @font-face{
     font-family: Enchant;
-    src: url(CSS/Enchanted\ Land.otf)
+    src: url(./CSSImages/Enchanted\ Land.otf)
 }
 
 @font-face {
     font-family: smallMemory;
-    src: url(CSS/SmallMemory.ttf);
+    src: url(./CSSImages/SmallMemory.ttf);
 }
 
