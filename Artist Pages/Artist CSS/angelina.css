@@ -1,0 +1,29 @@
+body{
+    background-color :rgb(192, 192, 109);
+    margin: 10 px;
+    padding: 10 px;
+}
+p{
+    color :B5D98F ;
+    margin: 10 px;
+    padding: 10 px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: solid 1 px #C3D8E4;
+    border-radius: 7 px;
+    padding: 5 px;
+    cursor: pointer;
+    }
+    nav ul li:hover{
+        background-color: #F8E4EF;
+        color: #34410f;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #34410f;
+    }
+
