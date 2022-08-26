@@ -1,11 +1,28 @@
 body{
-    background-color :rgb(192, 192, 109);
+    background-color :rgb(28, 113, 35);
     margin: 10 px;
     padding: 10 px;
 }
 p{
-    color :B5D98F ;
+    color :rgb(181, 171, 53) ;
     margin: 10 px;
     padding: 10 px;
     
 }
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: solid 1 px #C3D8E4;
+    border-radius: 7 px;
+    padding: 5 px;
+    cursor: pointer;
+    }
+    nav ul li:hover{
+        background-color: #dbae8e;
+        color: #eeeabc;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #eeeabc;
+    }
