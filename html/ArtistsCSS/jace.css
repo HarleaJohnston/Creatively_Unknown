@@ -4,9 +4,11 @@ html{
     font-size: 50px;
     background-color: #184e77;
     color:   #ADf1d2;
-    background-image: url("http://pa1.narvii.com/6596/13a0ea190ec4ec6134eec6b291899fca611ef6c5_00.gif"),url("./CSSImages/vinesBackground.png");
-    background-size: 250px, cover;
+    background-image: url("http://pa1.narvii.com/6596/13a0ea190ec4ec6134eec6b291899fca611ef6c5_00.gif"), url("https://media4.giphy.com/media/djLNrYxkt6a9EA5YVi/giphy.gif?cid=ecf05e475cwg7ytfr520h42gxf48phflp2y1x60cooq98plm&rid=giphy.gif&ct=g"),url("./Images/vinesBackground.png");
+    background-attachment: fixed;
+    background-size: 300px,100px ,cover;
     background-repeat: no-repeat;
+    
 }
 #contators{
     position: relative;
@@ -29,7 +31,7 @@ html{
     position:relative;
     font-weight: bolder;
     color: #000b2e;
-    background-image: url("./CSSImages/AQSexuality.png");
+    background-image: url("./Images/AQSexuality.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
@@ -43,7 +45,7 @@ html{
     margin-top: 100px;
     position: relative;
 
-    background-image: url("./CSSImages/UpsideRainbow.png");
+    background-image: url("./Images/UpsideRainbow.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -55,17 +57,21 @@ html{
     color: #ffd500;
 }
 footer{
-    color: #070707;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #fffae5;
     font-size: 20px;
 }
 
 @font-face{
     font-family: Enchant;
-    src: url(./CSSImages/Enchanted\ Land.otf)
+    src: url(./Enchanted\ Land.otf)
 }
 
 @font-face {
     font-family: smallMemory;
-    src: url(./CSSImages/SmallMemory.ttf);
+    src: url(./SmallMemory.ttf);
 }
 
