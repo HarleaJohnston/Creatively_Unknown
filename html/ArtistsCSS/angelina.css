@@ -6,10 +6,11 @@ body{
     background-attachment: fixed;
     background-size: 300 px, 230 px, cover;
     background-repeat: no-repeat;
+    color:rgb(83, 135, 76);
 
 }
 p{
-    color :B5D98F ;
+    color :rgb(83, 135, 76) ;
     margin: 10 px;
     padding: 10 px;
     
