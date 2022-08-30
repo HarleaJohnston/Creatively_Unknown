@@ -1,12 +1,18 @@
 body{
-    background-color :rgb(192, 192, 109);
     margin: 10 px;
     padding: 10 px;
+    background-image: url("./Images/spooky-forest-png-7.jpg");
+    background-position: left top, right bottom, center;
+    background-attachment: fixed;
+    background-size: 300 px, 230 px, cover;
+    background-repeat: no-repeat;
+
 }
 p{
     color :B5D98F ;
     margin: 10 px;
     padding: 10 px;
+    
     
 }
 nav ul li{
