@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #A27BB8;
+    background-color: #f7f3f8;
   }
   .align{
     align-items: flex-start;
@@ -47,7 +47,7 @@ body {
   
   .contents{
     justify-content: center;
-    background: #AF9FC9;
+    background: #f7f3f8;
     color: rgb(48, 3, 58);
     padding: 10px;
     border-radius: 30px;
@@ -58,7 +58,7 @@ body {
   
   .contents2{
     justify-content: center;
-    background: #AF9FC9;
+    background: #f7f3f8;
     color: rgb(48, 3, 58);
     padding: 10px;
     border-radius: 30px;
@@ -103,7 +103,7 @@ body {
   }
   
   .item {
-    background-color: #AF9FC9;
+    background-color: #f7f3f8;
     display: flex;
     flex-flow: column;
     text-align: center;
@@ -146,17 +146,17 @@ body {
   border: solid 1px;
   border-radius: 7px;
   padding: 5px;
-  background-color: #8e6b98;
+  background-color: #f7f3f8;
   cursor: pointer;
   }
   nav ul li:hover{
     background-color: #F8E4EF;
-    color: #46313D;
+    color: #b6759a;
   }
   
   nav ul li a{
     text-decoration: none;
-    color: #46313D;
+    color: #b6759a;
   }
   
   img{
